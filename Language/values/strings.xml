@@ -1,0 +1,334 @@
+<resources>
+    <!-- Game General -->
+    <string name="app_name">Necromancy</string>
+    <string name="action_settings">Settings</string>
+    <string name="coming_soon">Coming soon...</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <!-- Drawer items -->
+    <string name="menu_character">Character</string>
+    <string name="menu_spellbook">Spellbook</string>
+    <string name="inventory">Inventory</string>
+    <string name="menu_units">Units</string>
+    <string name="menu_wallet">Wallet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Login -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="logging_in">Logging in...</string>
+
+    <!-- Logout -->
+    <string name="logging_out">Logging out, please wait.</string>
+
+    <!-- Settings -->
+    <string name="settings">Einstellungen</string>
+    <string name="notification">Notification</string>
+    <string name="settings_notification">Notification at:</string>
+
+    <string name="building_finished">Building finished</string>
+    <string name="building_attacked">Building is attacked</string>
+
+    <string name="phone">Phone</string>
+    <string name="email">E-Mail</string>
+
+    <string name="finished">Finished</string>
+
+    <!-- Inventory -->
+    <string name="you_use">You use</string>
+    <string name="inventory_added1">Added</string>
+    <string name="inventory_added2">to inventory.</string>
+
+    <string name="map_loading">Currently map is loading, please wait...</string>
+    <string name="conjuration">Conjuration</string>
+
+    <string name="nomoreinformations">Keine weiteren Informationen.</string>
+
+    <!-- Places -->
+    <string name="mine">Mine</string>
+    <string name="quarry">Steinbruch</string>
+    <string name="forest">Wald</string>
+    <string name="resource_explore">Explore this place</string>
+
+    <string name="hospital">Hospital</string>
+    <string name="hospital_buy_bandages">Kaufe Bandagen</string>
+    <string name="hospital_nobandages1">We aren`t selling bandages.</string>
+    <string name="hospital_nobandages2">We are currently out of warehouse, sorry.</string>
+    <string name="hospital_steal">Versuche eine etwas totes zu stehlen</string>
+
+    <string name="veterinary">Veterinary</string>
+    <string name="veterinary_nomoreinformations">No more informations.</string>
+    <string name="veterinary_buy_bandages">Buy bandages</string>
+    <string name="veterinary_nobandages1">We aren`t selling bandages.</string>
+    <string name="veterinary_nobandages2">We are currently out of warehouse, sorry.</string>
+    <string name="veterinary_steal">Try to steal a dead animal</string>
+
+    <string name="market">Shop</string>
+
+    <string name="you_got_one">You got one</string>
+    <string name="no_luck_today">Nothing to find, try again tomorrow.</string>
+
+    <!-- Trading -->
+    <string name="ok">OK</string>
+    <string name="abort">Abort</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="you_get">You get</string>
+    <string name="you_sold">You sold</string>
+    <string name="not_enough">Not enough</string>
+    <string name="not_enough_mana">Not enough mana.</string>
+    <string name="not_enough_resources">Not enough resources.</string>
+    <string name="not_enough_coins">Not enough coins.</string>
+    <string name="select_amount">Select amount</string>
+    <string name="back">Back</string>
+
+    <!-- Status -->
+    <string name="hitpoints">Hitpoints</string>
+    <string name="mana">Mana</string>
+    <string name="attack">Attack</string>
+    <string name="defense">Defense</string>
+    <string name="speed">Speed</string>
+    <string name="carry">Carry</string>
+    <string name="power">Power</string>
+    <string name="expierience">Experience</string>
+    <string name="regeneration_hitpoints">Hitpoint regeneration</string>
+    <string name="regeneration_mana">Mana regeneration</string>
+    <string name="buff">Buff</string>
+
+    <string name="minutes">Minutes</string>
+
+
+    <!-- Unit Fragment -->
+    <string name="unit_stay">Stay</string>
+    <string name="unit_follow">Follow</string>
+    <string name="unit_goto">Go to</string>
+    <string name="unit_guard">G\nu\na\nr\nd</string>
+    <string name="unit_use">Use</string>
+    <string name="unit_attack">Attack</string>
+    <string name="transfer">Transfer</string>
+    <string name="unit_fed">Control</string>
+    <string name="unit_action_working">Is working at</string>
+    <string name="unit_action_fighting">Is fighting.</string>
+    <string name="unit_action_guarding">Is guarding a</string>
+    <string name="unit_action_going">Is going somewhere.</string>
+    <string name="unit_enter_name">Enter new name</string>
+    <string name="unit_rename_failed">Rename failed.</string>
+
+    <string name="btnUnitDestroy">Click again to destroy unit.</string>
+
+    <string name="unit_transfer_only_players">Units can only transfered to other players.</string>
+
+    <string name="drop">Drop</string>
+
+    <string name="destroy">Destroy</string>
+
+    <string name="exp">EXP</string>
+    <string name="cost">Cost</string>
+    <string name="free">free</string>
+
+    <string name="unit_worker_not_enough_exp">Not enough EXP, your unit need</string>
+    <string name="unitworker_upgrade_cost">Upgrade cost</string>
+    <string name="max_amount_units">You have reached the maximum number of units you can currently control.</string>
+    <string name="you_are_dead">You are dead.</string>
+
+    <string name="reanimate_not_enough_mana">Not enough mana. You need at least 50% from your maximum mana.</string>
+    <string name="reanimate_successful1">"You reanimate</string>
+    <string name="reanimate_successful2">successfully!</string>
+    <string name="reanimate_is_alive">is alive.</string>
+
+    <!-- Buildings -->
+    <string name="a_building">a building</string>
+    <string name="tower">Fortress</string>
+    <string name="vault_need_key">I need a key to open this.</string>
+    <string name="tower_description">Your tower is your home, your fortress, and sign of your power.</string>
+    <string name="tower_visions">*Visions invade you*</string>
+    <string name="tower_ressstone_not_ready">Resurrection stone is not ready yet.</string>
+    <string name="tower_stone_loading">Resurrection stone is loading, wait some seconds.</string>
+    <string name="tower_recover">After some seconds, you awake, weak but alive, at the floor of your fortress.</string>
+    <string name="tower_ressstone_full">I only can use this, when i am dead.</string>
+    <string name="tower_not_dead">You are not dead, come back if you are dead.</string>
+    <string name="tower_body_reanimate">Your body starts to regenerate!</string>
+    <string name="meditation_come_back_later">You can not concentrate, maybe it will work better later.</string>
+    <string name="meditation_successfull">Your meditation was successful, you feel connected to everything. You get: </string>
+    <string name="vault">Vault</string>
+
+    <string name="warehouse">Stock</string>
+    <string name="stock_description">In your warehouse, your units put their degraded resources.</string>
+    <string name="stock_added1">Added</string>
+    <string name="stock_added2">to warehouse.</string>
+    <string name="stock_takeing">Taking ...</string>
+    <string name="stock_layingback">Laying back ...</string>
+
+    <string name="workshop">Workshop</string>
+    <string name="workshop_description">Create weapons and other stuff.</string>
+
+    <string name="altar">Altar</string>
+    <string name="altar_description">Regenerates units.</string>
+
+    <string name="item">Item</string>
+    <string name="reanimate">Reanimate</string>
+
+    <string name="build">Build</string>
+    <string name="upgrade_complete">Upgrade complete.</string>
+    <string name="upgrade_failed">Upgrade failed.</string>
+
+    <!-- Graveyard -->
+    <string name="graveyard_begin_dig">You begin to dig...</string>
+    <string name="graveyard_dig1">You unearth one </string>
+    <string name="graveyard_dig2"></string>
+    <string name="graveyard_incomprehensible_whisper">You hear some incomprehensible whisper.</string>
+    <string name="graveyard_come_back_later">You already steal from this graveyard, less than an hour ago. Come back later.</string>
+    <string name="graveyard_to_weak">You are to weak.</string>
+    <string name="graveyard_take_over">You take over this graveyard!</string>
+    <string name="graveyard_submitted">Graveyard submitted, thank you!</string>
+    <string name="graveyard_not_submitted">"There was a problem, graveyard was not submitted."</string>
+
+    <string name="name">Name</string>
+    <string name="rank">Rank</string>
+    <string name="graveyard">Graveyard</string>
+    <string name="graveyards">Graveyards</string>
+    <string name="points">Points</string>
+    <string name="highscore">Highscore</string>
+    <string name="submit">Submit</string>
+    <string name="send">Senden</string>
+    <string name="login_remember">Remember Login</string>
+    <string name="login_auto">Auto</string>
+    <string name="loading_data_text">Loading data, please wait...</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="upgrade">Upgrade</string>
+
+    <string name="stock_take">Take</string>
+    <string name="stock_lay_back">Lay back</string>
+
+    <string name="profile_edit_save_btn">SAVE PROFILE</string>
+    <string name="profile_edit_description_title">Character Description</string>
+
+    <string name="graveyard_currentowner">~~~ Current Owner ~~~</string>
+    <string name="graveyard_takecontrol">TAKE CONTROL</string>
+    <string name="graveyard_submit_title">Submit new graveyard</string>
+    <string name="graveyard_submit_explain"> Help us add the cemeteries of your city to the game. Go to a graveyard near you, enter the name of the cemetery, and press submit. \n\nAfter checking if there is actually a graveyard in this location, it is unlocked and you get as the "discoverer" +2 on your control value if you own this graveyard.</string>
+    <string name="graveyard_submit_hint">Enter graveyard name</string>
+    <string name="graveyard_chat_title">You hear some whispering on the graveyard:</string>
+    <string name="graveyard_help">Help: Graveyard</string>
+    <string name="graveyard_help_tombstone">On the tombstone you can see, which player currently controls the graveyard. If your points are higher than the points of the controller, you can take over the graveyard. Every graveyard you control, increases your control value by one point, if you are the discoverer of the graveyard it even increases by 2 points.</string>
+    <string name="graveyard_help_grave">At graves you can burrow for corpses and bones one time per hour.</string>
+
+    <string name="tower_help">Help: Tower</string>
+    <string name="tower_help_spellbook">At your spellbook, you upgrade your spells. Every level you can upgrade all parts of your spell one time.</string>
+    <string name="tower_help_resstone">At the ressurection stone, you reanimate yourself if you are dead.</string>
+
+    <string-array name="UnitNames">
+        <item name="1">Zombie</item>
+        <item name="2">Skeleton</item>
+        <item name="3">Skeletal dog</item>
+        <item name="4">Skeletal Knight</item>
+        <item name="5">Mumie</item>
+    </string-array>
+
+    <string-array name="Spellbook">
+        <item name="zombie">Invoke Zombie</item>
+        <item name="skeleton">Invoke Skeleton</item>
+        <item name="skeletaldog">Invoke Skeletal dog</item>
+        <item name="skeletalknight">Invoke Skeletal Knight</item>
+        <item name="mumie">Invoke Mumie</item>
+    </string-array>
+
+    <string-array name="BuildingNames">
+        <item name="1">Tower</item>
+        <item name="2">Warehouse</item>
+        <item name="3">Workshop</item>
+        <item name="4">Altar</item>
+    </string-array>
+
+    <string-array name="BuildingDescription">
+        <item name="1">Here you are at home.</item>
+        <item name="2">At the warehouse, your undead store resources they found.</item>
+        <item name="3">At the workshop, your undead craft items for you.</item>
+        <item name="4">Build altars in the world to demonstrate your power.\nThe altar can heal undead if it get used by them.</item>
+    </string-array>
+
+    <string-array name="Items">
+        <item name="1">Bone</item>
+        <item name="2">Holz</item>
+        <item name="3">Stone</item>
+        <item name="4">Corpse</item>
+        <item name="5">Silver</item>
+        <item name="6">Dog corpse</item>
+        <item name="7">Mana potion</item>
+        <item name="8">Heal potion</item>
+        <item name="9">Gold</item>
+        <item name="10">Iron</item>
+        <item name="11">Silver coin</item>
+        <item name="12">Gold coin</item>
+        <item name="13">Sword</item>
+        <item name="14">Plate Armor</item>
+        <item name="15">Shield</item>
+        <item name="16">Bandage</item>
+        <item name="17">Used bandages</item>
+        <item name="18">Empty Bottle</item>
+        <item name="19">Camping kit</item>
+    </string-array>
+
+    <string-array name="ItemDescription">
+        <item name="1">Some humanoid bones</item>
+        <item name="2">A log.</item>
+        <item name="3">A boulder.</item>
+        <item name="4">Humanoid remains.</item>
+        <item name="5">Silver ore.</item>
+        <item name="6">A dog corpse</item>
+        <item name="7">Instantly regenerates mana by 10 Points.</item>
+        <item name="8">Instantly heals 10 Hitpoints.</item>
+        <item name="9">Gold ore.</item>
+        <item name="10">Iron ore.</item>
+        <item name="11">Silvercoins are most used to trade.</item>
+        <item name="12">Goldcoins are gladly seen in trades.</item>
+        <item name="13">A regular sword.</item>
+        <item name="14">A regular plate armor.</item>
+        <item name="15">A regular shield.</item>
+        <item name="16">Instantly heal 10 Hitpoints.</item>
+        <item name="17"></item>
+        <item name="18"></item>
+        <item name="19">Used to secure log out, outside your fortress.</item>
+
+    </string-array>
+
+    <!-- Help -->
+    <string name="help">Help</string>
+    <string name="help_text">Here you find useful informations about the different parts of the game.</string>
+    <string name="buildings">Buildings</string>
+    <string name="units">Units</string>
+    <string name="places">Places</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial">Tutorial</string>
+    <string name="tutorial_header">First steps</string>
+    <string name="tutorial_page1">
+        Attention: To call this tutorial later, go to help in the upper right corner of the menu!
+
+        Welcome to Necromancy!\n\n
+
+        This game is location based and works with GPS, which means where you standing right now,
+        also your character is standing. To move, go outside and explore your surroundings.\n
+        you can see which places near you, on the overview map at lower right corner of the game screen.\n\n
+
+        At first, you probably will not know what to do.
+        To help you get started we going to explain how to build your warehouse and gather the first raw materials,
+        then you should master the basics to keep growing.\n\n
+    </string>
+    <string name="tutorial_page2_1">
+        As a little welcome gift, you get your first corpse from us, it\'s in your inventory.
+        Corpses can be resurrected into zombies, to do this, you have to select your spellbook at the character menu at left, chose the appropriate page and press summon.
+        You\'ll need mana and the corpse to do this. Every three minutes you recharge your mana depending on your mana regeneration. If your zombie dies, you can repeal the corpse from ground.\n\n
+
+        Humanoid corpses and bones can be found in cemeteries and hospitals,
+        If you need more you should make a detour there.
+    </string>
+    <string name="tutorial_page3_1">If you have your first corpses, we should build a warehouse. Since you will often access it, it is best to put it in a place where you often spend your time, preferably your home. To start building, place yourself where the warehouse is to be built, go to the tree menu and select the warehouse.\n\nNow the unfinished warehouse should appear on the map. To build it now you need your undead. Summon a zombie or skeleton, select "Use" in the units menu, and execute the command on the site, then your unit should start moving and start building your warehouse.</string>
+    <string name="tutorial_page4_1">When your warehouse is finished, we can collect resources for further projects. Now that your unit is out of action, we send it out to collect wood, stones or metals. Go back to the menu of your unit, choose "Use", switch to your overview map (Note: You can see and command your units in the default view and on the overview map.) and send your unit to a forest, a mine or a quarry. If all goes well, your undead will start to get raw materials for you. Depending on the distance and speed of the unit that takes a bit. When your unit is back, you can pick up the raw materials you brought from your warehouse.\n\nIf you have collected enough resources then you should build your fortress next. \n\nIf you have further questions, you can post them in our forum.\n\nWe wish you success!</string>
+    <string name="next">Next</string>
+
+</resources>
